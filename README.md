@@ -1,6 +1,6 @@
 # 🏆 Golden Raspberry Awards API
 
-[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml)
+[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/GilJSantana/golden-raspberry-awards/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 
@@ -136,7 +136,7 @@ O pipeline realiza as seguintes etapas:
 5. Executa os testes com `pytest`
 
 Badge de status:  
-[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml)
+[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/GilJSantana/golden-raspberry-awards/actions/workflows/ci.yml)
 
 ---
 
