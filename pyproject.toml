@@ -1,0 +1,16 @@
+[project]
+name = "golden-raspberry-awards"
+version = "0.1.0"
+description = "Vencedores da categoria Pior Filme."
+authors = [
+    {name = "Gilmar",email = "gilmar.jesus@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
