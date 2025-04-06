@@ -8,7 +8,6 @@ Parametros:
 import csv
 import re
 
-csv_file_path = 'dados/Movielist.csv'
 
 
 def split_producers(raw_producers_str):
