@@ -1,7 +1,6 @@
 # 🏆 Golden Raspberry Awards API
 
-[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/GilJSantana/golden-raspberry-awards/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/GilJSantana/golden_raspberry_awards/actions/workflows/python-tests.yml/badge.svg)](https://github.com/GilJSantana/golden_raspberry_awards/actions/workflows/python-tests.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 
 API construída com **FastAPI** e **SQLite in-memory** para análise dos dados históricos do prêmio Golden Raspberry Awards.
@@ -10,13 +9,13 @@ API construída com **FastAPI** e **SQLite in-memory** para análise dos dados h
 
 ## 📁 Estrutura
 
-- `dados/Movielist.csv` — Fonte de dados
-- `csv_loader.py` — Carrega os dados do CSV na base SQLite em memória
-- `database.py` — Inicializa e mantém a conexão com o banco
-- `service.py` — Lógica de negócio e manipulação de dados
-- `api.py` — Define os endpoints da API
-- `main.py` — Ponto de entrada para execução da API com Uvicorn
-- `tests/` — Testes automatizados com `pytest` e `httpx`
+- `dados/Movielist.csv` — Fonte de dados  
+- `csv_loader.py` — Carrega os dados do CSV na base SQLite em memória  
+- `database.py` — Inicializa e mantém a conexão com o banco  
+- `service.py` — Lógica de negócio e manipulação de dados  
+- `api.py` — Define os endpoints da API  
+- `main.py` — Ponto de entrada para execução da API com Uvicorn  
+- `tests/` — Testes automatizados com `pytest` e `httpx`  
 
 ---
 
@@ -75,9 +74,7 @@ pytest
 
 ## 🌐 Como executar a API
 
-
-
-Execute o modulo main.py :
+Execute o módulo `main.py`:
 
 ```bash
 poetry run python main.py
@@ -129,24 +126,17 @@ Este projeto utiliza **GitHub Actions** para executar os testes automaticamente 
 
 O pipeline realiza as seguintes etapas:
 
-1. Clona o repositório
-2. Instala o Python 3.10
-3. Instala as dependências via Poetry
-4. Configura `PYTHONPATH`
+1. Clona o repositório  
+2. Instala o Python 3.10  
+3. Instala as dependências via Poetry  
+4. Configura `PYTHONPATH`  
 5. Executa os testes com `pytest`
-
-Badge de status:  
-[![CI](https://github.com/seu-usuario/golden-raspberry-awards/actions/workflows/ci.yml/badge.svg)](https://github.com/GilJSantana/golden-raspberry-awards/actions/workflows/ci.yml)
 
 ---
 
 ## 📌 Requisitos
 
-- Python 3.10+
+- Python 3.13+
 - [Poetry](https://python-poetry.org/)
 
 ---
-
-
-
-
